@@ -24,18 +24,18 @@ from selenium.webdriver.common.keys import Keys
 
 #### Comandos uteis
 
-O site que haverá a navegação
+##### O site que haverá a navegação
  driver.get("https://www.seusite.com.br")
 
-Tempo de espera troque o 'tempo' pelos segundos de espera
+##### Tempo de espera troque o 'tempo' pelos segundos de espera
  driver.implicitly_wait(tempo)
 
-Comandos para janela
+##### Comandos para janela
  driver.maximize_window()
 
  driver.minimize_window()
 
-Comando de busca dentro do navegador
+##### Comando de busca dentro do navegador
  sua_variavel = driver.find_element_by_id("Sua ID")
 
  sua_variavel = driver.find_element_by_class("Sua Classe")
@@ -43,7 +43,7 @@ Comando de busca dentro do navegador
  sua_variavel = driver.find_element_by_xpath("Sua Xpath")
 
 
-Comando para enviar dados no navegador
+##### Comando para enviar dados no navegador
  sua_variavel.send_keys("Teste de Assinatura")
 
  sua_variavel.click()
