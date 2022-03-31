@@ -4,6 +4,9 @@ from selenium import webdriver
 """ Importando o módulo keys da biblioteca selenium """
 from selenium.webdriver.common.keys import Keys
 
+""" Importando a Biblioteca PANDAS para caso necessário"""
+import pandas as pd
+
 """  Criando uma instancia do navegador que usarei que no caso é o Google Chrome """
 driver = webdriver.Chrome(executable_path=r"E:\Webdriver\chromedriver.exe") # Caminho do driver
 
